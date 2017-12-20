@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Manada</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <input type="hidden" id="pub-key" value="-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: OpenPGP.js v2.6.0
+Comment: https://openpgpjs.org
+
+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
+=c6BJ
+-----END PGP PUBLIC KEY BLOCK-----"/>
+
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><img src="./img/logo-verde.svg" width="80" />
+        <a href="#hero" class="manada-text">Manada</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about-manada">About Manada</a></li>
+
+          <!--<li class="menu-has-children"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="menu-has-children"><a href="#">Drop Down 2</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li> -->
+  
+          <li><a href="#subscribe">Subscribe your Project</a></li>
+          <li><a href="#help-manada">Help Manada</a></li>
+          <li><a href="#letter">Letter to Enthusiasts</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  
+<!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to Manada</h1>
+      <h2>Come help us to make something meaningful to humanity</h2>
+      <a href="#about" class="btn-get-started">Get Started</a>
+      <br>
+      <a href="#about" class="btn-learn-more">Learn More</a>      
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!--==========================
+      About Manada Section
+    ============================-->
+    <section id="about-manada">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">About Manada</h3>
+          <p class="section-description">Learn more about what is Manada.</p>
+        </div>
+        <div class="row naosei2">
+          <div class="col-lg-4 col-md-6 wow fadeInUp naosei" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href="" class="inf inf-doador"></a></div>
+              <h4 class="title"><a href="">ACCESS WWW.MANADA.ME</a></h4>
+              <p class="description">The first step is to access <a href="http://www.manada.me">Manada website</a> and learn more about our platform, just like what you are doing right now. In a short way, we provide you an easy and safe way to generate tiny amounts of money and donate it to the most upvoted social projects from all over the world.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp naosei" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href="" class="inf inf-aba"></a></div>
+              <h4 class="title"><a href="">KEEP MANADA'S TAB OPENED</a></h4>
+              <p class="description">Basically, we will generate money if you keep the  Manada’s tab opened, so if you already want to help, just click <a href="http://manada.me/donate">Get Started</a> and keep Manada’s tab opened.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp naosei" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href="" class="inf inf-cpu"></a></div>
+              <h4 class="title"><a href="">SHARE YOUR PROCESSING POWER</a></h4>
+              <p class="description">When Manada’s tab is opened, our platform will be using <a href="http://coinhive.com">Coinhive</a> to make your browser interact with a safe blockchain algorithm that will use a small quantity of the idle processing capacity of your computer to generate money. The algorithm will use the minimum/the least amount of your computer capacity usage by default, however, you may choose how much of your computer’s capacity can be used, and if you increase it, you will collaborate more with the project.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp naosei" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href="" class="inf inf-cubo"></a></div>
+              <h4 class="title"><a href="">GENERATE MONERO FRACTION</a></h4>
+              <p class="description">This algorithm generates a tiny tiny tiny amount per second of a cryptocurrency, called Monero. You can learn more about the whole process if you want, just <a href="manada.me/details">click here</a>.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp naosei" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href="" class="inf inf-monero"></a></div>
+              <h4 class="title"><a href="">MANADA GATHERS THE FRACTIONS</a></h4>
+              <p class="description">Like a real life Genki Dama, with hundreds of thousands of people keeping Manada’s tab open, we can gather all this tiny tiny tiny bits of Monero generated by second of all of you donors. We really need a LOT of people keeping Manada’s tab opened to generate a few dozens of Moneros per month, which it’s not much today, but can be really helpful.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp naosei" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href="" class="inf inf-destinatario"></a></div>
+              <h4 class="title"><a href="">SUPPORT SOCIAL PROJECTS ALL OVER THE WORLD</a></h4>
+              <p class="description">Manada will send ALL MONEROS generated by you donors to small social projects all over the world, which with our training and education, will benefit from this cryptocurrency features, like anonymous transactions and free from governmental and banking taxes.
+              The social project most upvoted by you donors in the period of one month will receive all the Moneros in the next transaction period (monthly).</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about-manada -->
+
+    <!--==========================
+      About Manada Section
+    ============================
+    <section id="about">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">Few Words About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        </div>
+
+      </div>
+    </section> #about -->
+
+    <!--==========================
+      Subscribe Section
+    ============================-->
+    <section id="subscribe">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Subscribe your project</h3>
+          <p class="section-description">Fill the form below and send all the information you can about the projec (the project history, links, social midias...). Our team will check the information and contact you further to proceed the subscription.</p>
+        </div>
+      </div>
+
+      <div class="container wow fadeInUp">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-8">
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" id="subs-form" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="proj-name" class="form-control" id="proj-name" placeholder="Project Name" data-rule="minlen:3" data-msg="Please enter at least 3 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Contact Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write more about your project" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><a href="#" id="btn-subscription" class="btn-padrao">Send Message</a></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- #subscribe -->
+
+    <!--==========================
+    Help Manada Section
+    ============================-->
+    <section id="help-manada">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Help Manada</h3>
+            <p class="cta-text">If you believe in blockchain as we do and you want to help Manada achieve the goal of make something good with it and change the world, even if it is just a little bit, call to action and come us with us. Be part of Manada.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #help-manada -->
+
+    <!--==========================
+      Letter Section
+    ============================ -->
+    <section id="letter">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Letter to Enthusiasts</h3>
+          <p class="section-description"></p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-9 col-md-8">
+            <div class="letter-manada text-justify">
+              <p class="lead">Nós do Manada, assim como você, acreditamos no blockchain. Enxergamos seus benefícios e inevitabilidade em um mundo que ainda está por vir, o qual ainda podemos apenas vislumbrar o que as limitações da imaginação humana nos permite.</p>
+              <p class="lead">Sabemos que o blockchain é uma realidade e o quanto pode ser construído com sua estrutura, no entanto, essa inevitabilidade será apenas uma ilusão se não iniciarmos a aplicação desses conceitos de modo a impactar pessoas hoje e resolver problemas de maneira criativa.</p>
+              <p class="lead">O blockchain não deve ser tratado puramente sob o espectro da especulação, feita para enriquecer o topo da pirâmide. Sua descentralização deve iniciar seu impacto na sociedade de modo a acreditarem e valorizarem seu poder de transformação.</p>
+              <p class="lead">É nisso que o Manada acredita. Nós não ligamos se você utiliza ou acredita mais no bitcoin, no litecoin, no b-cash (desculpe, Roger), ou qualquer outra cryptomoeda. Nós ligamos para o fato de você acreditar no blockchain como revolução que é, e acredita nele como instrumento para tornar a sociedade melhor. </p>
+              <p class="lead">Estamos vivendo uma nova maneira de nos relacionarmos com a geração de valor, e cabe a nós entusiastas explorarmos seu potencial em todos os âmbitos que tangem a sociedade de hoje e de amanhã.</p>
+              <p class="lead">Se acredita nisso, a revolução depende de você também. Vamos construir.</p>
+              <p class="lead">Muito obrigado por ler esse manifesto. Sinta-se a vontade para colaborar com o projeto:</p>
+            </div>
+            <div class="text-center">
+              <a class="btn-padrao align-middle" href="#">Colaborate</a>
+            </div>
+  				</div>
+  			</div>
+
+      </div>
+    </section>< <!--#letter -->
+
+    <!--==========================
+      Portfolio Section
+    ============================
+    <section id="portfolio">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Portfolio</h3>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-logo">Logo</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/app1.jpg" alt="">
+              <div class="details">
+                <h4>App 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/web2.jpg" alt="">
+              <div class="details">
+                <h4>Web 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/app3.jpg" alt="">
+              <div class="details">
+                <h4>App 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/card1.jpg" alt="">
+              <div class="details">
+                <h4>Card 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/card2.jpg" alt="">
+              <div class="details">
+                <h4>Card 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/web3.jpg" alt="">
+              <div class="details">
+                <h4>Web 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/card3.jpg" alt="">
+              <div class="details">
+                <h4>Card 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/app2.jpg" alt="">
+              <div class="details">
+                <h4>App 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/portfolio/logo1.jpg" alt="">
+              <div class="details">
+                <h4>Logo 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/portfolio/logo3.jpg" alt="">
+              <div class="details">
+                <h4>Logo 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/web1.jpg" alt="">
+              <div class="details">
+                <h4>Web 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/portfolio/logo2.jpg" alt="">
+              <div class="details">
+                <h4>Logo 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section> #portfolio -->
+
+    <!--==========================
+      Team Section
+    ============================
+    <section id="team">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Team</h3>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+              <h4>Walter White</h4>
+              <span>Chief Executive Officer</span>
+              <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+              <h4>Sarah Jhinson</h4>
+              <span>Product Manager</span>
+              <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-3.jpg" alt=""></div>
+              <h4>William Anderson</h4>
+              <span>CTO</span>
+              <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+              <h4>Amanda Jepson</h4>
+              <span>Accountant</span>
+              <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section> #team -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="footer-text">
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
+        -->
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/openpgp/openpgp.min.js"></script>
+
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
