@@ -595,13 +595,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about-manada .box {
-  padding: 50px 20px;
-  margin-bottom: 50px;
-  text-align: center;
+  padding: 40px 10px;
+  margin-bottom: 13rem;
+  text-align: justify;
   border: 1px solid #e6e6e6;
-  height: 350px;
+  height: auto;
+  min-height: 200px;
   position: relative;
   background: #fafafa;
+}
+
+#about-manada .box .title {
+  text-align: center;
 }
 
 #about-manada .icon {
@@ -613,7 +618,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
 }
 
-#about-manada .icon a {
+#about-manada .icon span {
   display: inline-block;
   border: 2px solid #a6ce88;
   padding: 100px;
@@ -630,10 +635,23 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #a6ce88;
 }
 
-#about-manada .box:hover .icon a {
+#about-manada .box:hover .icon span {
   color: #a6ce88;
   border: 5px solid #a6ce88;
 }
+
+.long-desc {
+  display: none;
+}
+
+#about-manada .box:hover .short-desc {
+  display: none;
+}
+
+#about-manada .box:hover .long-desc {
+  display: block;
+}
+
 
 #about-manada .title {
   font-weight: 700;
@@ -999,9 +1017,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: url("../img/portfolio/bg-white/destinatario.svg");
 }
 
-.naosei {
-  height: 35rem;
-}
 .naosei2 {
   padding-top: 8rem;
 }

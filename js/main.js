@@ -212,15 +212,72 @@ jQuery(document).ready(function( $ ) {
 
       var options, encrypted, that;
 
+      var privKey = `-----BEGIN PGP PUBLIC KEY BLOCK-----
+        Version: OpenPGP.js v2.6.0
+        Comment: https://openpgpjs.org
+
+        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
+        =Kcjw
+        -----END PGP PUBLIC KEY BLOCK-----`;
+
       options = {
           data: $(this).find('textarea').val(),
-          publicKeys: openpgp.key.readArmored($("#pub-key").val()).keys
+          publicKeys: openpgp.key.readArmored().keys
       };
 
       that = $(this);
 
       openpgp.encrypt(options).then(function(ciphertext) {
         encrypted = ciphertext.data;
+        var message = that.find('textarea').val();
         that.find('textarea').val(encrypted);
         var str = that.serialize();
         
@@ -229,7 +286,7 @@ jQuery(document).ready(function( $ ) {
           url: "contactform.php",
           data: str,
           success: function(msg) {
-            // alert(msg);
+            alert(msg);
             if (msg == 'OK') {
               $("#sendmessage").addClass("show");
               $("#errormessage").removeClass("show");
@@ -238,6 +295,7 @@ jQuery(document).ready(function( $ ) {
               $("#sendmessage").removeClass("show");
               $("#errormessage").addClass("show");
               $('#errormessage').html(msg);
+              $('.contactForm').find("input, textarea").val(message);
             }
           }
         });
