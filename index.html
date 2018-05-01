@@ -70,9 +70,9 @@
     <div class="hero-container">
       <h1>Welcome to Manada</h1>
       <h2>Help social projects, using blockchain, just by keeping a tab opened in your web browser</h2>
-      <a href="#about" class="btn-get-started">Get Started</a>
+      <a href="#donate" class="btn-get-started">Get Started</a>
       <br>
-      <a href="#about" class="btn-learn-more">Learn More</a>      
+      <a href="#about-manada" class="btn-learn-more">Learn More</a>      
     </div>
   </section><!-- #hero -->
 
@@ -100,7 +100,7 @@
             <div class="box">
               <div class="icon"><span class="inf inf-aba"></span></div>
               <h4 class="title">KEEP DONATION TAB OPENED</a></h4>
-              <span class="description short-desc">To start donating, just click <a href="http://manada.me/donate">Get Started</a> and our Donation tab will open. Just keep the tab opened in your web browser to contribute to social projects.</span>
+              <span class="description short-desc">To start donating, just click <a href="#donate">Get Started</a> and our Donation tab will open. Just keep the tab opened in your web browser to contribute to social projects.</span>
               <span class="description long-desc">To start donating, just click Get Started and our Donation tab will open. The Donation tab displays you all information about the projects available to upvoting, and while you keep it opened you are contributing to help them.</span>
             </div>
           </div>
@@ -140,45 +140,6 @@
 
       </div>
     </section><!-- #about-manada -->
-
-    <!--==========================
-      About Manada Section
-    ============================
-    <section id="about">
-      <div class="container">
-        <div class="row about-container">
-
-          <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">Few Words About Us</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-
-            <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
-        </div>
-
-      </div>
-    </section> #about -->
 
     <!--==========================
       Subscribe Section
@@ -262,11 +223,42 @@
             <div class="text-center">
               <a class="btn-padrao align-middle" href="#">Colaborate</a>
             </div>
-  				</div>
-  			</div>
+          </div>
+        </div>
 
       </div>
     </section>< <!--#letter -->
+
+    <!--==========================
+      Donate Section
+    ============================ -->
+    <section id="donate">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Donate</h3>
+          <p class="section-description">Choose the amout of processing you want to use to donate. More you use more energy you spend and more Monero you donate.</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-9 col-md-8">
+            <div class="slidecontainer">
+              <label id='powerPercentage'>70%</label><br />
+              <input type="range" min="1" max="100" value="70" class="slider" id="powerMiner">
+            </div>
+            <div class="text-center">
+              <a href="#donate" class="btn-padrao" id="btnStartDonating">Start Donating</a>
+              <br>
+              <a href="#donate" class="btn-padrao" id="btnStopDonating">Stop Donating</a>
+            </div>
+            <div class="donationBox">
+              Hashes por segundo: <label id='hashesPorSeg'></label><br />
+              Total de hashes: <label id='totalHashes'></label><br />
+              Valor aprox.: <label id='valorAproc'></label>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>< <!--#donate -->
 
     <!--==========================
       Portfolio Section
@@ -416,76 +408,6 @@
       </div>
     </section> #portfolio -->
 
-    <!--==========================
-      Team Section
-    ============================
-    <section id="team">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h3 class="section-title">Team</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-2.jpg" alt=""></div>
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-3.jpg" alt=""></div>
-              <h4>William Anderson</h4>
-              <span>CTO</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
-              <h4>Amanda Jepson</h4>
-              <span>Accountant</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section> #team -->
-
   </main>
 
   <!--==========================
@@ -521,14 +443,13 @@
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/openpgp/openpgp.min.js"></script>
-
   <script src="lib/waypoints/waypoints.min.js"></script>
   <script src="lib/counterup/counterup.min.js"></script>
   <script src="lib/superfish/hoverIntent.js"></script>
   <script src="lib/superfish/superfish.min.js"></script>
-
-  <!-- Template Main Javascript File -->
+  <script src="https://authedmine.com/lib/authedmine.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/manada.js"></script>
 
 </body>
 </html>

@@ -500,48 +500,48 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* About Us Section
 --------------------------------*/
-#about {
+#about-manada {
   background: #fff;
   padding: 80px 0;
 }
 
-#about .about-container .background {
+#about-manada .about-container .background {
   min-height: 300px;
   background: url(../img/about-img.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
 
-#about .about-container .content {
+#about-manada .about-container .content {
   background: #fff;
 }
 
-#about .about-container .title {
+#about-manada .about-container .title {
   color: #333;
   font-weight: 700;
   font-size: 32px;
 }
 
 @media (max-width: 768px) {
-  #about .about-container .title {
+  #about-manada .about-container .title {
     padding-top: 15px;
   }
 }
 
-#about .about-container p {
+#about-manada .about-container p {
   line-height: 26px;
 }
 
-#about .about-container p:last-child {
+#about-manada .about-container p:last-child {
   margin-bottom: 0;
 }
 
-#about .about-container .icon-box {
+#about-manada .about-container .icon-box {
   background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
-#about .about-container .icon-box .icon {
+#about-manada .about-container .icon-box .icon {
   float: left;
   background: #fff;
   padding: 16px;
@@ -549,12 +549,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #a6ce88;
 }
 
-#about .about-container .icon-box .icon i {
+#about-manada .about-container .icon-box .icon i {
   color: #a6ce88;
   font-size: 24px;
 }
 
-#about .about-container .icon-box .title {
+#about-manada .about-container .icon-box .title {
   margin-left: 80px;
   font-weight: 500;
   margin-bottom: 5px;
@@ -562,11 +562,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-#about .about-container .icon-box .title a {
+#about-manada .about-container .icon-box .title a {
   color: #111;
 }
 
-#about .about-container .icon-box .description {
+#about-manada .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
@@ -806,53 +806,53 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: -30px;
 }
 
-/* Team Section
+/* Donate Section
 --------------------------------*/
-#team {
+#donate {
   background: #fff;
   padding: 80px 0 60px 0;
 }
 
-#team .member {
+#donate .member {
   text-align: center;
   margin-bottom: 20px;
 }
 
-#team .member .pic {
+#donate .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
 }
 
-#team .member .pic img {
+#donate .member .pic img {
   max-width: 100%;
 }
 
-#team .member h4 {
+#donate .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-#team .member span {
+#donate .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-#team .member .social {
+#donate .member .social {
   margin-top: 15px;
 }
 
-#team .member .social a {
+#donate .member .social a {
   color: #b3b3b3;
 }
 
-#team .member .social a:hover {
+#donate .member .social a:hover {
   color: #a6ce88;
 }
 
-#team .member .social i {
+#donate .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
@@ -982,6 +982,55 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+/*--------------------------------------------------------------
+# Slider
+--------------------------------------------------------------*/
+
+.slidecontainer {
+    width: 100%;
+     text-align: center;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 30%; 
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 30%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+#powerPercentage {
+  font-size: 24px;
+  font-weight: bold;
+  color: #82c785;
 }
 
 .inf {
